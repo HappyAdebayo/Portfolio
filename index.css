@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.poppins-bold {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+.poppins-normal {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+.font-playfair {
+font-family: 'Playfair Display', serif;
+}
+.font-playfair-header {
+font-family: 'Playfair Display', serif;
+font-weight: 700;
+font-size: 48px;
+}
+.font-playfair-title{
+font-weight: 700;
+font-family: 'Playfair Display', serif;
+}
+.font-nunito {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400; /* Regular */
+    font-size: 24px;
+}
+.font-nunito-semibold {
+font-family: 'Nunito', sans-serif;
+font-weight: 600; /* Regular */
+font-size: 16px;
+}
+.font-roboto {
+font-family: 'Roboto', sans-serif;
+font-weight: 500; /* Medium */
+font-size: 18px;
+}
+.comfortaa {
+  font-family: 'Comfortaa', cursive;
+  font-weight: 700;
+  font-size: 18px;
+}
+.font-raleway {
+font-family: 'Raleway', sans-serif;
+font-weight: 500; /* Medium */
+font-size: 18px;
+}

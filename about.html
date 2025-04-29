@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Adebayo</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body class="bg-[#F9FAFF] font-sans">
+
+  <nav class="bg-[#F9FAFF] shadow-md text-gray-800 py-4 fixed w-full top-0 left-0 z-10">
+    <div class="container mx-auto flex justify-between items-center px-4 relative">
+      <a href="index.html" class="text-2xl comfortaa text-[#25282B]">Happy Adebayo</a>
+
+      <button id="menu-btn" class="block md:hidden text-3xl focus:outline-none">
+        &#9776;
+      </button>
+
+      <ul id="menu" class="hidden md:flex space-x-6">
+        <li>
+            <a href="#" class="font-raleway text-[#25282B] hover:text-[#FDC435] border-b-2 border-[#FDC435] pb-3">
+              About
+            </a>
+          </li>
+          
+        <li><a href="#" class="font-raleway text-[#25282B] hover:text-[#FDC435]">Projects</a></li>
+        <li><a href="#" class="font-raleway text-[#25282B] hover:text-[#FDC435]">Contact</a></li>
+      </ul>
+    </div>
+
+    <div id="mobile-menu" class="hidden md:hidden flex-col bg-[#FDC435] shadow-lg absolute top-16 left-0 w-full px-8 py-4 space-y-4 z-20 items-center transition-all duration-300 ease-in-out">
+      <a href="#" class="block font-raleway text-[#25282B]">About</a>
+      <a href="#" class="block font-raleway text-[#25282B]">Projects</a>
+      <a href="#" class="block font-raleway text-[#25282B]">Contact</a>
+    </div>
+
+  </nav>
+
+
+  <section class="flex flex-col md:flex-row items-center justify-between px-4 container mx-auto mt-24 z-[-1] mb-24">
+    <div class="w-full md:w-4/12 text-center md:text-left mb-10 md:mb-0">
+      <h2 class="mb-4 font-playfair-header ">About me</h2>
+      <p class="text-base md:text-xl text-justify text-[#828282] mb-8 font-nunito leading-relaxed">
+        This is a short paragraph explaining the content. You can write something meaningful here about your service, product, or idea.
+      </p>
+      <a href="#" class="inline-block bg-[#FDC435] font-roboto text-[#25282B] px-6 py-2 rounded-lg hover:bg-purple-700 transition mt-1">
+        Resume
+      </a>
+    </div>
+  
+    <div class="md:w-1/2 border rounded-full h-[400px] w-[400px]">
+      <img src="assets/my-picture.jpg" alt="Placeholder Image" class="rounded-full h-[400px] w-[400px]  shadow-md" />
+    </div>
+  </section>
+  
+
+<script src="index.js"></script>
+
+</body>
+</html>
