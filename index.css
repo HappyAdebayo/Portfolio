@@ -3,6 +3,9 @@
   margin: 0;
   padding: 0;
 }
+html {
+    scroll-behavior: smooth;
+  }  
 .poppins-bold {
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
